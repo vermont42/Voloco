@@ -39,6 +39,7 @@ class TrackDetailVC: UIViewController {
   }
 
   @objc func playTrack() {
+    trackDetailView.changeBackgroundColor()
     trackDetailDelegate?.openURL(string: PlayType.current.urlString(track: track))
   }
 

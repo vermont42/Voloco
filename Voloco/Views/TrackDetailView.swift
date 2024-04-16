@@ -60,7 +60,7 @@ class TrackDetailView: UIView, UITextViewDelegate {
 
   override init(frame: CGRect) {
     super.init(frame: frame)
-    backgroundColor = .secondarySystemBackground
+    backgroundColor = TrackDetailBackgroundColor.current.uiColor
     [photoImageView, titleLabel, userNameLabel, genreLabel, playTrackButton, showMusicianButton].forEach {
       addSubview($0)
     }
@@ -95,5 +95,10 @@ class TrackDetailView: UIView, UITextViewDelegate {
     titleLabel.text = track.title
     userNameLabel.text = track.userName
     genreLabel.text = track.genre ?? Track.unknownGenre
+  }
+
+  func changeBackgroundColor() {
+    TrackDetailBackgroundColor.toggle()
+    backgroundColor = TrackDetailBackgroundColor.current.uiColor
   }
 }

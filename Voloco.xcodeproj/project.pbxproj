@@ -32,6 +32,7 @@
 		031F22CC2BCE6423000B478F /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F22CB2BCE6423000B478F /* LoadingCell.swift */; };
 		031F22CE2BCE6BCF000B478F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F22CD2BCE6BCF000B478F /* SettingsView.swift */; };
 		031F22D02BCED3BE000B478F /* PlayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F22CF2BCED3BE000B478F /* PlayType.swift */; };
+		031F22D32BCF18D5000B478F /* TrackDetailBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F22D22BCF18D5000B478F /* TrackDetailBackgroundColor.swift */; };
 		03E660682BCDCAC700B6A39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E660672BCDCAC700B6A39C /* AppDelegate.swift */; };
 		03E6606A2BCDCAC700B6A39C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E660692BCDCAC700B6A39C /* SceneDelegate.swift */; };
 		03E6606C2BCDCAC700B6A39C /* BrowseTracksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E6606B2BCDCAC700B6A39C /* BrowseTracksVC.swift */; };
@@ -68,6 +69,7 @@
 		031F22CB2BCE6423000B478F /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
 		031F22CD2BCE6BCF000B478F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		031F22CF2BCED3BE000B478F /* PlayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayType.swift; sourceTree = "<group>"; };
+		031F22D22BCF18D5000B478F /* TrackDetailBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailBackgroundColor.swift; sourceTree = "<group>"; };
 		03E660642BCDCAC700B6A39C /* Voloco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voloco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E660672BCDCAC700B6A39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E660692BCDCAC700B6A39C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				031F22A22BCDD1C4000B478F /* Page.swift */,
 				031F22CF2BCED3BE000B478F /* PlayType.swift */,
+				031F22D22BCF18D5000B478F /* TrackDetailBackgroundColor.swift */,
 				031F22C92BCE5993000B478F /* ProfileImageURLs.swift */,
 				031F22AC2BCE3E91000B478F /* Symbols.swift */,
 				031F22A02BCDD14E000B478F /* Track.swift */,
@@ -301,6 +304,7 @@
 				031F22AB2BCE3E2B000B478F /* Fonts.swift in Sources */,
 				031F229A2BCDCFDD000B478F /* NSCoderExtension.swift in Sources */,
 				031F22BE2BCE4A8D000B478F /* TrackCoordinator.swift in Sources */,
+				031F22D32BCF18D5000B478F /* TrackDetailBackgroundColor.swift in Sources */,
 				031F22C42BCE4D43000B478F /* TrackDetailView.swift in Sources */,
 				031F22BA2BCE49C9000B478F /* MainTabBarVC.swift in Sources */,
 				03E660982BCDCC5D00B6A39C /* BrowseTracksView.swift in Sources */,
